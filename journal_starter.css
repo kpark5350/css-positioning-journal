@@ -95,7 +95,7 @@ body {
     float: left;
     margin-right: 15px;
     border: 12px solid #fff;
-    box-shadow: 0 0 2px #333;
+    box-shadow: 0 0 0 2px #333;
     padding: 8px;
     background: white;
 }
@@ -109,7 +109,7 @@ body {
     font-size: 0.9em;
 }
 /* ============================================
-   STEP 7: RESPONSIVE DESIGN
+   STEP 6: RESPONSIVE DESIGN
    ============================================
    TODO: Make layout stack on mobile
 ============================================ */
@@ -119,15 +119,51 @@ body {
         width: 100%;
         margin: 0;
     }
-
-    #sidebar {
-        float: none;
-        width: 100%;
-    }
-
+    
+    #sidebar,
     #content-area {
         float: none;
         width: 100%;
+    }
+    
+    #sidebar {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* SPECIAL FEATURE 5: DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #eee;
+    }
+
+    #main-container {
+        background-color: #1e1e1e;
+    }
+
+    #sidebar {
+        background-color: #2a2a2a;
+    }
+
+    .journal-entry {
+        background-color: #242424;
+        border-color: #444;
+    }
+
+    .entry-title {
+        color: #fff;
+    }
+
+    .entry-date {
+        color: #aaa;
+    }
+
+    .entry-image {
+        background-color: #242424;
+        border-color: #242424;
     }
 }
 /* Special Feature: #2 Hover Effects & Transitions */
