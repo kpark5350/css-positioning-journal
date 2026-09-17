@@ -130,3 +130,29 @@ body {
         width: 100%;
     }
 }
+/* Special Feature: #2 Hover Effects & Transitions */
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #cc5500;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.journal-entry {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.journal-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
