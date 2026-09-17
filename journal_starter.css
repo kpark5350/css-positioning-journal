@@ -119,14 +119,14 @@ body {
         width: 100%;
         margin: 0;
     }
-
-    #sidebar {
-        float: none;
-        width: 100%;
-    }
-
+    
+    #sidebar,
     #content-area {
         float: none;
         width: 100%;
+    }
+    
+    #sidebar {
+        margin-bottom: 20px;
     }
 }
