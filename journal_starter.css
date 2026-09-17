@@ -95,7 +95,7 @@ body {
     float: left;
     margin-right: 15px;
     border: 12px solid #fff;
-    box-shadow: 0 0 2px #333;
+    box-shadow: 0 0 0 2px #333;
     padding: 8px;
     background: white;
 }
@@ -109,7 +109,7 @@ body {
     font-size: 0.9em;
 }
 /* ============================================
-   STEP 7: RESPONSIVE DESIGN
+   STEP 6: RESPONSIVE DESIGN
    ============================================
    TODO: Make layout stack on mobile
 ============================================ */
