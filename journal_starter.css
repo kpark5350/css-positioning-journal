@@ -130,3 +130,39 @@ body {
         margin-bottom: 20px;
     }
 }
+
+
+/* SPECIAL FEATURE 5: DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #eee;
+    }
+
+    #main-container {
+        background-color: #1e1e1e;
+    }
+
+    #sidebar {
+        background-color: #2a2a2a;
+    }
+
+    .journal-entry {
+        background-color: #242424;
+        border-color: #444;
+    }
+
+    .entry-title {
+        color: #fff;
+    }
+
+    .entry-date {
+        color: #aaa;
+    }
+
+    .entry-image {
+        background-color: #242424;
+        border-color: #242424;
+    }
+}
